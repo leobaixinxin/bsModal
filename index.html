@@ -21,7 +21,7 @@
  <script src="./index.js"></script>
  <script>
    function showAlert() {
-    bsDialog.alert('我是alert弹窗', {
+    $.bsDialog.alert('我是alert弹窗', {
        title: 'alert弹窗',
        confirm: function() {
         console.log('alert callback')
@@ -29,7 +29,7 @@
      })
    }
    function showConfirm() {
-    bsDialog.confirm('我是confirm弹窗', {
+    $.bsDialog.confirm('我是confirm弹窗', {
        title: 'confirm弹窗',
        confirm: function() {
         console.log('confirm callback')
@@ -40,7 +40,7 @@
      })
    }
    function showConfirmTwo() {
-    bsDialog.confirm('我是confirm222弹窗', {
+    $.bsDialog.confirm('我是confirm222弹窗', {
        title: 'confirm22弹窗',
        confirm: function() {
         console.log('confirm222 callback')
@@ -48,7 +48,7 @@
      })
    }
    function toastAlert() {
-    bsDialog.toast('我是toast弹窗', {
+    $.bsDialog.toast('我是toast弹窗', {
         title: 'toast弹窗',
         duration: 1000
      })

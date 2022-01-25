@@ -123,5 +123,8 @@
   var bsDialog = Object.create(null);
   bsDialog.init = init;
   bsDialog.init()
+  $.extend({
+    bsDialog: bsDialog
+  })
   window.bsDialog = bsDialog;
 })(window, $)
